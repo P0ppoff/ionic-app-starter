@@ -4,7 +4,8 @@
 		$stateProvider.state('search', {
 			url : '/search',
 			views : {
-				'' : { templateUrl : 'modules/app.search/search.html'
+				'' : { templateUrl : 'modules/app.search/search.html',
+						controller : 'searchController as controller'
 				}
 			}
 		});
